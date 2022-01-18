@@ -29,4 +29,4 @@ Template Project for starting up CRUD API with Django Rest Framework
 
 ## Pull Requests
 
-- [Pull Request Jan 17, 2022]()
+- [Pull Request Jan 17, 2022](https://github.com/spamuelranek/cookie-stand-api/pull/1)
