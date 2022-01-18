@@ -49,18 +49,21 @@ ALLOWED_HOSTS = tuple(env.list("ALLOWED_HOSTS"))
 # Application definition
 
 INSTALLED_APPS = [
+    "whitenoise.runserver_nostatic",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     # 3rd party
     "rest_framework",
     "corsheaders",
+
     # local
     "accounts",
-    "things",
+    "cookiestands",
 ]
 
 MIDDLEWARE = [
