@@ -22,3 +22,4 @@ Template Project for starting up CRUD API with Django Rest Framework
 - Rename `project/.env.sample` to `.env` and update as needed
 - Run makemigrations and migrate commands
 - Optional: Update `api_tester.py`
+- This is something else to add
